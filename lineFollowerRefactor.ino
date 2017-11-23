@@ -28,7 +28,7 @@ void loop() {
   else if (rightSensorValue < 300 && leftSensorValue >= 300) {
       rightMotor.run(FORWARD);
       leftMotor.run(RELEASE);
-      righMotor.setSpeed(RIGHT_MOTOR_DEFAULT_SPEED);
+      rightMotor.setSpeed(RIGHT_MOTOR_DEFAULT_SPEED);
   }
   else {
       rightMotor.run(FORWARD);
