@@ -4,13 +4,13 @@
 const int rightSensorPin = 2;
 const int leftSensorPin = 0;
 
-AF_DCMotor rightMotor(3, MOTOR12_1KHZ);
+AF_DCMotor rightMotor(1, MOTOR12_1KHZ);
 AF_DCMotor leftMotor(4);
 
-#define RIGHT_MOTOR_DEFAULT_SPEED 75
-#define LEFT_MOTOR_DEFAULT_SPEED 75
-#define RIGHT_MOTOR_MAX_SPEED 130
-#define LEFT_MOTOR_MAX_SPEED 130
+#define RIGHT_MOTOR_DEFAULT_SPEED 92
+#define LEFT_MOTOR_DEFAULT_SPEED 92
+#define RIGHT_MOTOR_MAX_SPEED 145
+#define LEFT_MOTOR_MAX_SPEED 145
 
 void setup() {
   delay(2000);
